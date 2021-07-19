@@ -316,7 +316,6 @@ a:hover {
 
 .navbar {
     margin-bottom: 0;
-    z-index: 1;
 }
 
 .navbar-brand {
@@ -576,7 +575,6 @@ a[data-lightbox]:hover::before {
     background: rgba(0, 0, 0, .6);
     color: #FFF;
     font-weight: 100;
-    z-index: 1;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -621,7 +619,6 @@ a[data-lightbox]:hover img {
     position: absolute;
     top: 20px;
     right: 20px;
-    z-index: 20;
     background: rgba(0, 0, 0, .5);
     border: none;
     line-height: 30px;
@@ -644,7 +641,6 @@ a[data-lightbox]:hover img {
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
-    z-index: 1;
     opacity: 0.4;
 }
 
